@@ -1,0 +1,74 @@
+.adm-cell, .adm-cell-iblock {
+  width: 670px;
+  margin: 0 auto;
+}
+
+body div .row-property-button, body span .row-property-button {
+  background-color: #597DA3;
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+body span.span_x {
+  position: relative;
+  font-size: 30.6px;
+  z-index: 2;
+  display: block;
+  padding: 0;
+  text-align: center;
+  background-color: #597DA3;
+  color: #fff;
+}
+
+.row-property {
+  background-color: #fff;
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #666;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.row-property:hover {
+  border: 1px solid #444;
+}
+
+
+body .custom-input {
+  padding: 5px !important;
+  border: 1px solid #ccc !important;
+  box-shadow: none !important;
+
+}
+
+body select.custom-input {
+  height: 38px;
+}
+
+.custom-input:focus {
+  border: 1px solid #444 !important;
+}
+
+.adm-detail-content-cell-l .row-property {
+  text-align: left;
+}
+
+.admin-h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+td select, td input {
+  width: -webkit-fill-available;
+}
